@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="enter_your_gpa">Enter your GPA:</string>
+    <string name="gpa">GPA</string>
+    <string name="calculate">calculate</string>
+    <string name="grade_chart">Grade Chart</string>
+    <string name="grade_page">Grade Page</string>
+    <string name="enter_grade">Enter Grade:</string>
+</resources>

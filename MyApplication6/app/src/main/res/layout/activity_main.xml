@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="90dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="30dp"
+        android:width="150dp"
+        android:background="#2196F3"
+        android:shadowColor="#E91E63"
+        android:text="@string/enter_grade"
+        android:textColor="#FFEB3B"
+        android:textColorHighlight="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="100dp" />
+
+    <EditText
+        android:id="@+id/quiz"
+        android:layout_width="150dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center|center_horizontal"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginBottom="20dp"
+        android:autofillHints=""
+        android:background="#FFEB3B"
+        android:ems="10"
+        android:hint="quizes 15%"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#2196F3"
+        android:textColorHint="#2196F3"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/homework"
+        android:layout_width="150dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginBottom="20dp"
+        android:autofillHints=""
+        android:background="#FFEB3B"
+        android:ems="10"
+        android:hint="homework 25%"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#2196F3"
+        android:textColorHint="#2196F3"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/midterm"
+        android:layout_width="150dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginBottom="20dp"
+        android:autofillHints=""
+        android:background="#FFEB3B"
+        android:ems="10"
+        android:hint="mid term 30%"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#2196F3"
+        android:textColorHint="#2196F3"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/final0"
+        android:layout_width="150dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginBottom="20dp"
+        android:autofillHints=""
+        android:background="#FFEB3B"
+        android:ems="10"
+        android:hint="final 30%"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#2196F3"
+        android:textColorHint="#2196F3"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="200dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginBottom="20dp"
+        android:background="#FFEB3B"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="calculate"
+        android:textColor="#2196F3"
+        android:textSize="20sp"
+        tools:ignore="TextViewEdits" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="150dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:foregroundGravity="top"
+        android:text="RESET"
+        android:onClick="resetgrades"
+        android:textColor="#2196F3"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/gpa"
+        android:layout_width="150dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:foregroundGravity="top"
+        android:text="gpa"
+        android:textColor="#2196F3"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/Grade"
+        android:layout_width="150dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginBottom="20dp"
+        android:autofillHints=""
+        android:background="#FFEB3B"
+        android:ems="10"
+        android:hint="Grade"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#2196F3"
+        android:textColorHint="#2196F3"
+        android:textSize="20sp" />
+
+</LinearLayout>
